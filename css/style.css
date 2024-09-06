@@ -18,9 +18,10 @@ html {
 
 .flex-container {
 	display: flex;
-	background-color: #c0400090;
+	background-color: #c04000bb;
 	margin: 0px;
 	padding: 0px;
+	align-items: center;
   }
   
 .flex-container > div {
@@ -28,7 +29,7 @@ html {
 	margin-right: 5px;
 	padding: 0px;
 	/* font-size: large; */
-	vertical-align: middle;
+	
   }
 
 .flex-container .header-title {
@@ -37,10 +38,27 @@ html {
 	margin: 0px;
 	padding: 0px;
 	vertical-align: middle;
-	margin-left: 5;
+	margin-left: 15;
 }
  
-/* .flex-container > img {
+ .flex-container > img {
 	margin: 0px;
 	padding: 0px;
-} */
+} 
+
+.header-menu > ul> li {
+	display: inline-block;
+	font-size: x-large;
+	margin: 15px
+	align-items: center;
+}
+
+.header-menu > ul> li > a {
+	color: #ddd;
+	margin: 15px
+	align-items: center;
+	}
+
+.header-menu {
+	display: flex-end
+	}
