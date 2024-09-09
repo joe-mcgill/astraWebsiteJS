@@ -6,11 +6,12 @@ html {
 body {
 	background-image: url("../images/005_WEB_30330435AstraRooneyBranding_022_ANa_Elena_Photography_OF011.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-attachment: fixed;
+    background-size: cover;
 	height: 100%;
 	overflow: none;
 	margin:0px;
-	width: 90%
+	width: 100%
 }
 
 html {
@@ -26,7 +27,11 @@ nav {
   margin: 0px;
   }
   
+.main-content{
+    margin: 120px;
+}
  .well {
+    position: ;
     min-height: 20px;
     padding: 10px;
     margin: 0px;
@@ -43,6 +48,11 @@ nav {
 .text-sm{
 font-size:5em;
 }
+
+.text-links{
+font-size:2em;
+color: #00f;
+}
 .pagetitle {
 font-size: 3em;
 font-family: bold;
@@ -51,7 +61,7 @@ margin-left: 15px;
 }
 
 .col {
-justify-content: space-between;
+justify-content: space-around;
 }
 
 li {
@@ -68,12 +78,12 @@ background-color: yellow;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  height: 100%;
+/*  height: 100%;*/
 }
 
 
 .navbar-menu-ul > li > a {
-color: #ddd;
+color: #00d;
 margin: 0px;
 padding: 0px;
 }
@@ -83,9 +93,21 @@ font-size: 1em;
 
 footer {
     position: fixed;
-    height: 150px;
+    height: 75px;
     margin: 0px;
     bottom: 0;
     padding: 0;
     width: 100%;
 }
+
+header {
+    position: sticky; 
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    margin: 0px;
+    
+    padding: 0;
+    width: 100%;
+}
+
