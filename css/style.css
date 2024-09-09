@@ -10,6 +10,7 @@ body {
 	height: 100%;
 	overflow: none;
 	margin:0px;
+	width: 90%
 }
 
 html {
@@ -39,12 +40,18 @@ nav {
 */
 }
 
-
+.text-sm{
+font-size:5em;
+}
 .pagetitle {
 font-size: 3em;
 font-family: bold;
 color: #ddd;
 margin-left: 15px;
+}
+
+.col {
+justify-content: space-between;
 }
 
 li {
@@ -72,4 +79,13 @@ padding: 0px;
 }
 .navbar-menu-ul > li {
 font-size: 1em;
+}
+
+footer {
+    position: fixed;
+    height: 150px;
+    margin: 0px;
+    bottom: 0;
+    padding: 0;
+    width: 100%;
 }
