@@ -11,11 +11,15 @@ body {
 	height: 100%;
 	overflow: none;
 	margin:0px;
-	width: 100%
+	width: 95%
 }
 
 html {
 	height: 100%
+}
+
+.container .navbar-collapse a {
+        color: #EFD9C1;
 }
 
 nav {
@@ -28,13 +32,15 @@ nav {
   }
   
 .main-content{
-    margin: 120px;
+
+    margin-top: 250px;
 }
  .well {
-    position: ;
+    align: center;
+    position:fixed;
     min-height: 20px;
     padding: 10px;
-    margin: 0px;
+    margin: 20px;
     background-color: #f5f5f5dd;
     border: 1px solid #e3e3e3;
     border-radius: 0px;
@@ -46,11 +52,11 @@ nav {
 }
 
 .text-sm{
-font-size:5em;
+font-size:4em;
 }
 
 .text-links{
-font-size:2em;
+font-size:1.5em;
 color: #00f;
 }
 .pagetitle {
