@@ -1,11 +1,13 @@
 document.write('\
     <nav class="navbar navbar-expand-lg justify-content-between fixed-top">\
-<header class="container-fluid">\
-      <a class="navbar-brand" href="#" style="display:inline-block">\
+\
+      <a class="navbar-brand mr-auto col-auto d-lg-print-inline-flex" href="#">\
+      <div style="display:flex; align-items:center;">\
         <img src="images/cropped-image218.png" height="100px" >\
+        <h4 class="pagetitle d-none d-xl-block">Astra Rooney Massage</h4>\
+      </div>\
     </a>\
-    <div class="pagetitle d-block d-md-none">Astra Rooney Massage</div>\
-  <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">\
+    <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">\
     <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="blue" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">\
         <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5M8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6"/>\
     </svg>\
@@ -38,5 +40,4 @@ document.write('\
     \
   </div>\
 </nav>\
-</header>\
 ');
