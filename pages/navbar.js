@@ -1,7 +1,7 @@
 document.write('\
     <nav class="navbar navbar-expand-lg justify-content-between fixed-top">\
 \
-      <a class="navbar-brand mr-auto col-auto d-lg-print-inline-flex" href="#">\
+      <a class="navbar-brand mr-auto col-auto d-lg-print-inline-flex" href="index.html">\
       <div style="display:flex; align-items:center;">\
         <img src="images/cropped-image218.png" height="100px" >\
         <h5 class="pagetitle d-none d-xl-block">Astra Rooney Massage</h5>\
@@ -14,16 +14,16 @@ document.write('\
   <div class="collapse navbar-collapse" id="navbarSupportedContent">\
     <ul class="navbar-nav mr-auto navbar-menu-ul text-links">\
       <li class="nav-item active">\
-        <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>\
+        <a class="nav-link" href="aboutme.html">About Me <span class="sr-only">(current)</span></a>\
       </li>\
       <li class="nav-item">\
         <a class="nav-link" href="#">Services Offered</a>\
       </li>\
       <li class="nav-item">\
-        <a class="nav-link" href="#">Location</a>\
+        <a class="nav-link" href="location.html">Location</a>\
       </li>\
       <li class="nav-item">\
-        <a class="nav-link" href="#">Reviews</a>\
+        <a class="nav-link" href="reviews.html">Reviews</a>\
       </li>\
       <li class="nav-item">\
         <a class="nav-link" href="#">Book Now</a>\

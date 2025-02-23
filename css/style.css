@@ -3,6 +3,10 @@ html {
 	padding: 0px;
 }
 
+p {
+    font-size: medium;   
+}
+
 body {
 	background-image: url("../images/005_WEB_30330435AstraRooneyBranding_022_ANa_Elena_Photography_OF011.jpg");
 	background-repeat: no-repeat;
@@ -12,6 +16,7 @@ body {
 	min-width: 450px;
 	margin:0px;
 	overflow: auto;
+    padding-bottom: 65px;
 }
 
 html {
@@ -41,6 +46,7 @@ nav {
 	height: calc(100vh-575px);
     position: absolute;
     overflow: none;
+    padding-bottom: 65px;
 }
  .well {
     
