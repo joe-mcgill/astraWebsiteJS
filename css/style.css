@@ -85,14 +85,15 @@ font-size:4em;
 }
 
 .text-links{
-font-size:1.5em;
+font-size:1.4em;
 color: #2035a8;
 }
 .pagetitle {
-font-size: 2em;
+font-size: 1.7em;
 font-family: bold;
 color: #ddd;
 margin-left: 15px;
+text-shadow: 2px 2px 4px #222;
 }
 
 .col {

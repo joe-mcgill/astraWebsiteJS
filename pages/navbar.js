@@ -4,7 +4,7 @@ document.write('\
       <a class="navbar-brand mr-auto col-auto d-lg-print-inline-flex" href="index.html">\
       <div style="display:flex; align-items:center;">\
         <img src="images/cropped-image218.png" height="75px" >\
-        <h6 class="pagetitle d-none d-xl-block">Astra Rooney Massage</h5>\
+        <h6 class="pagetitle d-none d-xl-block">Astra Rooney Massage</h6>\
       </div>\
     </a>\
     <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">\
