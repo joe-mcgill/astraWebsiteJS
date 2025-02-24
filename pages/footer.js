@@ -1,10 +1,9 @@
 document.write('\
 \
 <footer class=" row bg-light text-center ">\
-  <div class="col-md-12 text-links">\
-  <span>For more info:</span>\
-  <a href="mailto:astra@astrarooney.com" ><i class="bi bi-envelope-heart"></i>astra@astrarooney.com</a>\
+<div class="flex-container" style=" justify-content: center;">\
+  <div><span id="footerStart">For more info:&nbsp </span></div>\
+  <div><a href="mailto:astra@astrarooney.com" ><i class="bi bi-envelope-heart"></i>&nbspastra@astrarooney.com</a></div>\
   </div>\
-  \
 </footer>\
 ');
