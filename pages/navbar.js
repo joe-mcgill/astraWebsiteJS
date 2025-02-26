@@ -3,7 +3,7 @@ document.write('\
 \
       <a class="navbar-brand mr-auto col-auto d-lg-print-inline-flex" href="index.html">\
       <div style="display:flex; align-items:center;">\
-        <img src="images/cropped-image218.png" height="75px" >\
+        <img src="images/cropped-image218.png" height="65px" >\
         <h6 class="pagetitle d-none d-xl-block">Astra Rooney Massage</h6>\
       </div>\
     </a>\

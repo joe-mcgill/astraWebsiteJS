@@ -20,7 +20,7 @@
 
 
 <body class="overflow-none"> 
-	<div style="min-width:450px; overflow:none;" class="overflow-none">
+	<div style="min-width:320px; overflow:none;" class="overflow-none">
     <div class="container-fluid">
         <script src="pages/navbar.js"></script>
     </div>
@@ -33,8 +33,16 @@
 		<div class="spacerbox"></div>
         <div class="row well overflow-hidden" >
 				
-
-            <div class="col-md-12 text-sm .reviewbox" >
+            <div id="bookSmall" height="100vh">
+                <h1>Book Now</h1>
+                <div >
+                    <p>
+                    Booking is done through Massagebook. You can find an appointment clicking the book now button.
+                    </p>
+                </div>
+                <script src="pages/threebuttons.js"></script>
+            </div>
+            <div class="col-md-12 text-sm " id="bookBig" >
              
                         <h1>Book Now</h1>
                         <div class="flex-container" align-items="center">
@@ -62,8 +70,8 @@
    </main>
 
     <div class="container-fluid">
-<script src="pages/footer.js"></script>
-</div>
+        <script src="pages/footer.js"></script>
+    </div>
 </div>
 </body>
 </html>
