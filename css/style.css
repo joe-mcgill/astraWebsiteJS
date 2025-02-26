@@ -203,4 +203,19 @@ header {
     #footerStart {
       display: none;
     }
-  }
+    .w30 {
+        display: none;
+    }
+    .well { 
+        margin-left: -12px;
+        margin-right: -12px;
+        margin-top: 5px;
+    }
+    reviewbox {
+        margin-left:0px;
+    }
+}
+
+@media only screen and (max-width: 450px){
+
+}
