@@ -19,38 +19,41 @@
 
 
 
-<body class="overflow-none"> 
-	<div style="min-width:320px; overflow:none;" class="overflow-none" id="reviewbox">
-    <div class="container-fluid" >
+<body class="overflow-none" style="min-width:320px; overflow:none;" id="reviewbox"> 
+    
+    <div class="container-fluid">
         <script src="pages/navbar.js"></script>
     </div>
+    
 <!--
 <div class="spacer">
     &nbsp;
 </div>
 -->
-    <main  role= "main" class="container" style="margin:0px; overflow:none">
+    <div   role= "main" class="container" style="margin:0px; overflow:none">
 		<div class="spacerbox" ></div>
-        <div class="row well overflow-hidden" >
-				
-
-            <div class="col-md-12 text-sm " style="margin:0px;" >
-             
-                        <h1>Reviews</h1>
-            
-                        <iframe  src="https://www.massagebook.com/therapists/AstraRooney/widget/reviews" frameborder="0" width="100%" height="750"></iframe>
-                 
         
-            </div> 
-            <script src="pages/threebuttons.js"></script>
-    </div>
-    <div style="margin-top:65px; padding-bottom: 0px; border: 0px solid black; overflow:auto;height: calc(100vh-150px);"></div>
+        <div class="col-md-12 text-sm  well overflow-hidden" >
+            <div class="row-md-12  overflow-hidden" id="#aboutRow" >	
 
-   </main>
+            <!-- <div class="col-md-12 text-sm "  > -->
+             
+                    <h1>Reviews</h1>
+                    <div>
+                        <iframe class="embed-responsive-item" src="https://www.massagebook.com/therapists/AstraRooney/widget/reviews" frameborder="0" width="100%" height="750"></iframe>
+                    </div>
+        
+            <!-- </div>  -->
+            <div class="row  overflow-hidden" >
+                <script src="pages/threebuttons.js"></script>
+            </div>
+            </div>
+        </div>
+    <div style="margin-top:65px; padding-bottom: 0px; border: 0px solid black; overflow:auto;height: calc(100vh-150px);"></div>
+    </div>
+
 
     <div class="container-fluid">
 <script src="pages/footer.js"></script>
-</div>
-</div>
 </body>
 </html>
